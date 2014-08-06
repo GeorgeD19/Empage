@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.2" method="upgrade">
+	<name>EMPage</name>
+	<creationDate>August 6, 2014</creationDate>
+	<author>George Dunlop</author>
+	<authorEmail>info@vacidesign.co.uk</authorEmail>
+	<authorUrl>www.vacidesign.co.uk</authorUrl>
+	<copyright>Copyright (C) 2014. All Rights Reserved</copyright>
+	<license>GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<version>1.0.0</version>
+	<description><![CDATA[
+		<h1>EMPage (v.1.0.0)</h1>
+		<div style="clear: both; border-bottom:1px solid #000"></div>
+		<p>This component was created using as a way to have a empty page that you can apply modules to whilst keeping SEF urls for Joomla and SH404Sef. <strong>Built for Joomla 3.2.</strong></p>
+		<p>Created by <a href="http://www.vacidesign.co.uk" target="_blank">George Dunlop | www.vacidesign.co.uk</a>
+	]]></description>
+
+	<files>
+		<filename>index.html</filename>
+		<filename>router.php</filename>
+		<filename>empage.php</filename>
+		<filename>controller.php</filename>
+		<folder>views</folder>
+	</files>
+	<administration>
+	</administration>
+	</extension>
