@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="file" method="upgrade">
+	<name>sh404sef - Empage Plugin</name>
+	<author>George Dunlop</author>
+	<creationDate>@ant_current_date@</creationDate>
+	<copyright>2014 George Dunlop</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>george@snowrehab.com	</authorEmail>
+	<authorUrl>snowrehab.com</authorUrl>
+	<version>1.0</version>
+	<description>Provide default support for sef urls and meta data for the empage component</description>
+	<fileset>
+    <files target="components/com_sh404sef/sef_ext">
+      <file>com_empage.php</file>
+    </files>
+  </fileset>	
+</extension>
